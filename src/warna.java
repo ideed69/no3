@@ -20,7 +20,7 @@ public class warna {
         System.out.print("Masukkan nama anda:");
         String nama=input.next();
        
-        System.out.println("Taipkan warna kegemaran anda\nmerah/biru/kuning/hijau/hitam/putih: ");
+        System.out.println("Taipkan warna kegemaran anda\nmerah/biru/kuning/hijau/hitam/putih/emas: ");
         String warna=input.next();
         
         switch(warna){
@@ -42,6 +42,10 @@ public class warna {
         }
         case "putih" :{
         ulasan=("adalah berani tetapi tidak suka tunjukkan keberanian");
+        break;
+        }
+         case "emas" :{
+        ulasan=("adalah kaya");
         break;
         
     }default :{
